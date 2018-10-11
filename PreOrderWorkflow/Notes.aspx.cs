@@ -79,7 +79,7 @@ namespace PreOrderWorkflow
 
 
 
-                            //string sCount = @"select MAX(CONVERT(int,t_drid)) from ttcisg132200";
+                           // //string sCount = @"select MAX(CONVERT(int,t_drid)) from ttcisg132200";
                             nRecord = new Random(Guid.NewGuid().GetHashCode()).Next();
                             string sDocumentId = "AAA" + nRecord;
                            // string sCount = @"SELECT (ISNULL(MAX(t_rnum),0) + 1)as RunningNo FROM ttcisg131200 where t_acti='Y'";
